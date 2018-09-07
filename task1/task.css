@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-size: 0;
+}
+
+.box {
+    display: inline-block;
+    font-size: 12px;
+    width: 30vw;
+    height: 30vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    border-radius: 5%;
+    background: #e59e00;
+}
