@@ -32,29 +32,41 @@ body {
 }
 
 .box3 {
-    margin: 15vw 15vw;
+    margin: 15vw;
     color: #fff;
+}
+
+.text1 {
+    font-size: 15px;
 }
 
 .box4 {
     display: inline-block;
-    width: 48vw;
-    height: 48vw;
-    margin-top: 90px;
-    text-align: center;
-    font-size: 13px;
-    color: #FFFF;
-
+    width: 49vw;
+    height: 49vw;
 }
 
 .img3 {
     width: 50px;
     height: 50px;
-    margin-left: 0.5%;
+    margin-left: 15vw;
 }
 
 .img4 {
     width: 50px;
     height: 50px;
-    margin-right: 0.5%;
+    margin-right: 15vw;
+}
+
+.text2 {
+    margin-left: 15vw;
+    font-size: 15px;
+    color: #FFFF;
+}
+
+.text3 {
+    text-align: right;
+    margin-right: 15vw;
+    font-size: 15px;
+    color: #fff;
 }
