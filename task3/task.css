@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
     background-color: #68cdd5;
 }
 
@@ -18,7 +17,6 @@ body {
 
 .box2 {
     height: 150px;
-    width: 100vw;
     position: relative;
 }
 
@@ -32,7 +30,7 @@ body {
 }
 
 .box3 {
-    margin: 15vw;
+    margin: 15%;
     color: #fff;
 }
 
@@ -41,32 +39,41 @@ body {
 }
 
 .box4 {
-    display: inline-block;
-    width: 49vw;
-    height: 49vw;
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.box5 {
+    float: right;
+    width: 50%;
+    height: 50%;
 }
 
 .img3 {
+    float: left;
     width: 50px;
     height: 50px;
-    margin-left: 15vw;
+    margin: 0 30%;
 }
 
 .img4 {
+    float: right;
+    margin: 0 30%;
     width: 50px;
     height: 50px;
-    margin-right: 15vw;
 }
 
 .text2 {
-    margin-left: 15vw;
+    float: left;
+    margin-left: 30%;
     font-size: 15px;
     color: #FFFF;
 }
 
 .text3 {
-    text-align: right;
-    margin-right: 15vw;
+    float: right;
+    margin-right: 30%;
     font-size: 15px;
     color: #fff;
 }
